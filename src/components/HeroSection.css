@@ -1,0 +1,91 @@
+
+.hero-container {
+  min-height: 95vh;
+
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.hero-img-container {
+    position: relative;
+    align-self: center;
+    cursor: pointer;
+}
+
+.hero-img-container .hero-img-wrapper {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  overflow: hidden;
+  user-select: none;
+}
+
+.hero-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-container .hero-text-container {
+  align-self: flex-start;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 0.5em;
+  text-align: center;
+}
+
+.hero-text-container .hero-title-prefix {
+  margin: 0;
+
+  letter-spacing: -0.05rem;
+}
+
+.hero-text-container .hero-title {
+  text-transform: uppercase;
+  margin: 0;
+
+}
+
+.hero-title .title-spread {
+  letter-spacing: 0.22em;
+}
+
+.hero-text-container .hero-desc {
+  max-width: 55ch;
+}
+
+/** Social Icons **/
+
+.hero-icons-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none; /* So avatar click still registers */
+}
+
+.hero-icons-container .hero-icon {
+    position: absolute;
+    pointer-events: auto;
+    cursor: pointer;
+    background-color: var(--color-slate100);
+    padding: 0.4em;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: var(--size-xl);
+    color: var(--bg-primary);
+  }
+

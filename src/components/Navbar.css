@@ -1,0 +1,69 @@
+
+.desktop-nav-section {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: var(--bg-primary);
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+.logo-container a {
+  font-size: var(--size-2xl);
+  color: var(--color-slate100);
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.desktop-nav ul {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  text-decoration: none;
+  list-style: none;
+}
+
+
+.desktop-nav ul li a {
+  padding: 0.8em;
+  font-size: var(--size-m);
+  color: var(--indigo);
+  border-radius: 0.2em;
+}
+
+.desktop-nav ul li a:hover {
+  color: var(--color-slate200);
+}
+
+.toggle-theme-btn {
+  font-size: var(--size-m);
+  color: var(--color-slate600);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-icon.sun {
+  color: yellow;
+}
+.theme-icon.moon {
+  color: var(--color-slate600);
+}
+
+
