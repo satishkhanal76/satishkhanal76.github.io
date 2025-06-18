@@ -55,9 +55,9 @@ const HeroAvatarAndSocials = () => {
                             initial={{
                                 x: '-50%',
                                 y: '-50%',
-                                rotate: 0
+                                rotate: 0,
                             }}
-                            animate={{x: `calc(${x}px - 50%)`, y: `calc(${y}px - 50%)`, rotate: 720 }}
+                            animate={{x: `calc(${x}px - 50%)`, y: `calc(${y}px - 50%)`, rotate: 720}}
                             transition={{type: 'spring', stiffness: 250, damping: 20, mass: 0.5, delay: index * 0.01}}
                             exit={{
                                 x: '-50%',
