@@ -3,19 +3,13 @@ import { motion } from 'framer-motion';
 import './Navbar.css'
 
 import { FaSun, FaMoon } from 'react-icons/fa';
+import { FiMoon, FiSun } from 'react-icons/fi';
+import ThemeToggleButton from './ThemeToggleButton';
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
-  const [isLightTheme, setIsLightTheme] = useState(false);
 
-  const toggleTheme = () => {
-    setIsLightTheme(prev => {
-      const newTheme = !prev;
-      document.body.classList.toggle('light-theme', newTheme);
-      return newTheme;
-    });
-  };
 
 
   useEffect(() => {
@@ -34,7 +28,7 @@ const Navbar = () => {
       className="desktop-nav-section"
       initial={{ y: 0 }}
       animate={{ y: showNavbar ? 0 : -100 }}
-      transition={{ duration: 0.3 }}
+      transition={{ duration: 0.1, ease: 'easeInOut' }}
     >
         <nav className='container nav-wrapper'>
             <div className="logo-container"><a href="/">Satish</a></div>
@@ -43,9 +37,7 @@ const Navbar = () => {
                     <li><a href="#about-me">About Me</a></li>
                     <li><a href="#my-projects">My Projects</a></li>
                     <li><a href="#contact-me">Get In Touch</a></li>
-                    <button className="toggle-theme-btn" onClick={toggleTheme}>
-                      {isLightTheme ? <FaMoon className="theme-icon moon" /> : <FaSun className="theme-icon sun" />}
-                    </button>
+                    <ThemeToggleButton />
                 </ul>
           </div>
         </nav>

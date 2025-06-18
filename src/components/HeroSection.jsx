@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <section className="container">
       <div className="hero-container">
-        <HeroAvatarAndSocials></HeroAvatarAndSocials>
+        <HeroAvatarAndSocials />
         <div className="hero-text-container">
           <h6 className="hero-title-prefix"><strong>I'm a</strong></h6>
           <h1 className="hero-title">
