@@ -4,7 +4,7 @@
         "title": "Chess",
         "shortDescription": "Recreation of the classic chess game.",
         "description": "",
-        "thumbnailURL": "./hero-img.jpeg",
+        "thumbnailURL": "",
         "tags": ["game", "chess", "AI"],
         "technologiesUsed": ["javascript", "html", "css"]
     },

@@ -44,8 +44,6 @@
 
 .hero-text-container .hero-title-prefix {
   margin: 0;
-
-  letter-spacing: -0.05rem;
 }
 
 .hero-text-container .hero-title {
@@ -55,7 +53,7 @@
 }
 
 .hero-title .title-spread {
-  letter-spacing: 0.22em;
+  letter-spacing: 0.15em;
 }
 
 .hero-text-container .hero-desc {

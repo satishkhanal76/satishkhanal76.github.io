@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import './Navbar.css'
 
-import { FaSun, FaMoon } from 'react-icons/fa';
-import { FiMoon, FiSun } from 'react-icons/fi';
 import ThemeToggleButton from './ThemeToggleButton';
 
 const Navbar = () => {
@@ -31,7 +29,7 @@ const Navbar = () => {
       transition={{ duration: 0.1, ease: 'easeInOut' }}
     >
         <nav className='container nav-wrapper'>
-            <div className="logo-container"><a href="/">Satish</a></div>
+            <a className='logo-container' href="/"><img alt='logo-image' src='./hero-img.jpeg' /></a>
             <div className="desktop-nav">
                 <ul>
                     <li><a href="#about-me">About Me</a></li>

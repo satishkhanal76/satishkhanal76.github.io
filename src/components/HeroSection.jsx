@@ -10,9 +10,9 @@ const HeroSection = () => {
       <div className="hero-container">
         <HeroAvatarAndSocials />
         <div className="hero-text-container">
-          <h6 className="hero-title-prefix"><strong>I'm a</strong></h6>
+          <h6 className="hero-title-prefix"><strong>Hi there! 👋 I'm</strong></h6>
           <h1 className="hero-title">
-            FullStack <br /><span className="title-spread">Developer</span>
+            Satish <br /><span className="title-spread">Khanal</span>
           </h1>
           <p className="hero-desc">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea magni
