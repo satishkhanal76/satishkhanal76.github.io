@@ -108,19 +108,15 @@ body {
 
 }
 
-
-
-
-
 body.light-theme {
   --bg-primary: hsl(210, 40%, 96%);
 
   --color-slate100: #161619;
-  --color-slate200: #161619;
-  --color-slate300: #161619;
-  --color-slate400: #161619;
-  --color-slate500: #161619;
-  --color-slate600: #161619;
+  --color-slate200: #2c2c31;
+  --color-slate300: #44444a;
+  --color-slate400: #686870;
+  --color-slate500: #8e8e96;
+  --color-slate600: #b4b4bc;
 
 
 }
@@ -141,6 +137,7 @@ strong {
 a {
   text-decoration: none;
   color: var(--rose);
+  cursor: pointer;
 }
 
 a:hover {
@@ -162,14 +159,18 @@ a:hover {
   color: var(--rose-complementry);
 }
 
+/* Heading and paragraph styles with consistent vertical spacing */
 h1 {
   font-size: var(--size-4xl);
+  margin-block: 1.25rem;
 }
 h2 {
   font-size: var(--size-3xl);
+  margin-block: 1.5rem;
 }
 h3 {
   font-size: var(--size-2xl);
+  margin-block: 1.25rem;
 }
 h4 {
   font-size: var(--size-xl);
@@ -181,9 +182,15 @@ h6 {
   font-size: var(--size-m);
 }
 
+h4,
+h5,
+h6 {
+  margin-block: 1rem;
+}
 p {
   color: var(--color-slate400);
   font-size: var(--size-sm);
+  margin-block: 1rem;
 }
 a {
   font-size: var(--size-sm);

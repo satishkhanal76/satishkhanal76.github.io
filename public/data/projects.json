@@ -1,0 +1,47 @@
+[
+    {
+        "id": "chess",
+        "title": "Chess",
+        "shortDescription": "Recreation of the classic chess game.",
+        "description": "",
+        "thumbnailURL": "./hero-img.jpeg",
+        "tags": ["game", "chess", "AI"],
+        "technologiesUsed": ["javascript", "html", "css"]
+    },
+    {
+        "id": "flappy-bird",
+        "title": "Flappy Bird",
+        "shortDescription": "A clone of the popular Flappy Bird game.",
+        "description": "",
+        "thumbnailURL": "",
+        "tags": ["game", "flappybird"],
+        "technologiesUsed": ["javascript", "html", "css"]
+    },
+    {
+        "id": "snake",
+        "title": "Snake",
+        "shortDescription": "A simple snake game.",
+        "description": "",
+        "thumbnailURL": "",
+        "tags": ["game", "snake"],
+        "technologiesUsed": ["java"]
+    },
+    {
+        "id": "tic-tac-toe",
+        "title": "Tic Tac Toe",
+        "shortDescription": "A classic Tic Tac Toe game.",
+        "description": "",
+        "thumbnailURL": "",
+        "tags": ["game", "tictactoe"],
+        "technologiesUsed": ["javascript", "html", "css"]
+    },
+    {
+        "id": "travel-agency-website",
+        "title": "Travel Agency Website",
+        "shortDescription": "A simple travel agency website.",
+        "description": "",
+        "thumbnailURL": "",
+        "tags": ["website", "travel", "agency"],
+        "technologiesUsed": ["javascript", "html", "css"]
+    }
+]

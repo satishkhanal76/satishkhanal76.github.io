@@ -87,5 +87,10 @@
     
     font-size: var(--size-xl);
     color: var(--bg-primary);
-  }
+}
+
+a.hero-icon {
+  color: var(--bg-primary);
+}
+
 
