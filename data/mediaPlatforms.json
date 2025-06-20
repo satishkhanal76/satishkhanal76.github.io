@@ -1,0 +1,32 @@
+[
+    {
+        "name": "GitHub",
+        "url": "https://github.com/satishkhanal76",
+        "iconName": "FaGithub",
+        "isVisible": true
+    },
+    {
+        "name": "X (Twitter)",
+        "url": "https://x.com/second_best_0",
+        "iconName": "FaTwitter",
+        "isVisible": true
+    },
+    {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/it.is.seismic",
+        "iconName": "FaFacebook",
+        "isVisible": false
+    },
+    {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/it.is.seismic/",
+        "iconName": "FaInstagram",
+        "isVisible": true
+    },
+    {
+        "name": "Email",
+        "url": "mailto:satishkhanal76@gmail.com",
+        "iconName": "FaRegEnvelope",
+        "isVisible": true
+    }
+]

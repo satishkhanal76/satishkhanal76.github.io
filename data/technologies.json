@@ -1,0 +1,79 @@
+[
+  {
+    "id": "javascript",
+    "title": "JavaScript",
+    "type": "language",
+    "precedence": 1,
+    "icon": "SiJavascript"
+  },
+  {
+    "id": "typescript",
+    "title": "TypeScript",
+    "type": "language",
+    "precedence": 1,
+    "icon": "SiTypescript"
+  },
+  {
+    "id": "python",
+    "title": "Python",
+    "type": "language",
+    "precedence": 1,
+    "icon": "SiPython"
+  },
+  {
+    "id": "java",
+    "title": "Java",
+    "type": "language",
+    "precedence": 1,
+    "icon": "SiJava"
+  },
+  {
+    "id": "nodejs",
+    "title": "Node.js",
+    "type": "runtime",
+    "precedence": 2,
+    "icon": "SiNodedotjs"
+  },
+  {
+    "id": "express",
+    "title": "Express",
+    "type": "library",
+    "precedence": 3,
+    "icon": "SiExpress"
+  },
+  {
+    "id": "react",
+    "title": "React",
+    "type": "library",
+    "precedence": 3,
+    "icon": "SiReact"
+  },
+  {
+    "id": "html",
+    "title": "HTML",
+    "type": "markup",
+    "precedence": 4,
+    "icon": "SiHtml5"
+  },
+  {
+    "id": "css",
+    "title": "CSS",
+    "type": "style",
+    "precedence": 4,
+    "icon": "SiCss3"
+  },
+  {
+    "id": "tailwind",
+    "title": "Tailwind CSS",
+    "type": "style",
+    "precedence": 4,
+    "icon": "SiTailwindcss"
+  },
+  {
+    "id": "git",
+    "title": "Git",
+    "type": "tool",
+    "precedence": 5,
+    "icon": "SiGit"
+  }
+]
