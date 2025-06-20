@@ -12,7 +12,7 @@ const HeroSection = () => {
         <div className="hero-text-container">
           <h6 className="hero-title-prefix"><strong>Hi there! 👋 I'm</strong></h6>
           <h1 className="hero-title">
-            Satish <br /><span className="title-spread">Khanal</span>
+            <span>Satish</span><span className="title-spread">Khanal</span>
           </h1>
           <p className="hero-desc">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea magni
