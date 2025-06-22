@@ -9,12 +9,13 @@
 
 .nav-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding-block: 0.5em;
 }
 
 .logo-container {
+  justify-self: flex-start;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -29,9 +29,10 @@ const Navbar = () => {
       transition={{ duration: 0.1, ease: 'easeInOut' }}
     >
         <nav className='container nav-wrapper'>
-            <a className='logo-container' href="/"><img alt='logo-image' src='./hero-img.jpeg' /></a>
+            {/* <a className='logo-container' href="/"><img alt='logo-image' src='./hero-img.jpeg' /></a> */}
             <div className="desktop-nav">
                 <ul>
+                    <li><a href="./">Home</a></li>
                     <li><a href="#about-me">About Me</a></li>
                     <li><a href="#my-projects">My Projects</a></li>
                     <li><a href="#contact-me">Get In Touch</a></li>
