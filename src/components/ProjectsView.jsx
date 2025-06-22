@@ -22,8 +22,6 @@ const ProjectsView = () => {
                 />
             ))}
             
-            {/* Placeholder cards for demonstration */}
-
         </div>
 
         {/* <div className="technologies" style={{
