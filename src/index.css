@@ -33,9 +33,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: var(--bg-primary);
-  color: var(--color-slate100);
-  font-family: var(--font-primary);
+  
 }
 
 .container {
@@ -105,8 +103,8 @@ html {
 body {
   background-color: var(--bg-primary);
   color: var(--color-slate100);
-
   font-family: var(--font-primary);
+
 
   transition: color 200ms ease, background-color 200ms linear;
 
