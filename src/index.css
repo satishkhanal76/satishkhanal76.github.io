@@ -18,7 +18,7 @@
   --size-3xl: 3.5rem;     /* 56px */
   --size-4xl: 4.5rem;     /* 72px */
 
-  --indigo: hsl(274, 84%, 65%);
+  --accent: hsl(30, 87%, 45%);
   --indigo-complementry: hsl(274, 84%, 35%);
   --rose: hsl(345, 92%, 45%);
   --rose-complementry: hsl(345, 92%, 50%);
@@ -130,7 +130,7 @@ button {
 }
 
 strong {
-  color: var(--indigo);
+  color: var(--accent);
   font-weight: bold;
 }
 
@@ -228,7 +228,7 @@ body.light-theme .btn {
 }
 
 .btn.blue-hue {
-  --btn-background: var(--indigo);
+  --btn-background: var(--accent);
   --btn-complement: var(--indigo-complementry);
 }
 
