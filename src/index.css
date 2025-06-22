@@ -19,9 +19,13 @@
   --size-4xl: 4.5rem;     /* 72px */
 
   --accent: hsl(30, 87%, 45%);
-  --indigo-complementry: hsl(274, 84%, 35%);
-  --rose: hsl(345, 92%, 45%);
-  --rose-complementry: hsl(345, 92%, 50%);
+
+  /* cyan */
+  /* --secondary-accent: hsl(200, 90%, 50%); */
+
+  /* purple */
+  --secondary-accent: hsl(270, 85%, 60%);
+  
 
   color-scheme: dark light;
   font-synthesis: none;
@@ -130,19 +134,10 @@ button {
 }
 
 strong {
-  color: var(--accent);
+  color: var(--secondary-accent);
   font-weight: bold;
 }
 
-a {
-  text-decoration: none;
-  color: var(--rose);
-  cursor: pointer;
-}
-
-a:hover {
-  color: var(--rose-complementry);
-}
 
 p {
   color: var(--color-slate400);
@@ -151,12 +146,14 @@ p {
 
 a {
   text-decoration: none;
-  color: var(--rose);
+  color: var(--accent);
   font-size: var(--size-sm);
+    cursor: pointer;
+
 }
 
 a:hover {
-  color: var(--rose-complementry);
+  color: var(--color-slate100);
 }
 
 /* Heading and paragraph styles with consistent vertical spacing */
@@ -203,8 +200,9 @@ body.light-theme .btn {
 }
 
 .btn {
-  --btn-background: var(--rose); /* Button background color*/
-  --btn-complement: var(--rose-complementry); /* Button box-shadow color*/
+  --btn-background: var(--secondary-accent); /* Button background color*/
+  --btn-complement: var(--color-slate100); /* Button box-shadow color*/
+  --btn-color: var(--color-slate100); /* Button text color*/
 
   padding: 0.7rem;
   border-radius: 0.3rem;
@@ -213,12 +211,14 @@ body.light-theme .btn {
   cursor: pointer;
   user-select: none;
 
-  color: inherit;
+  color: var(--btn-color);
 
   background: var(--btn-background);
-  box-shadow: 3px 3px 8px var(--btn-complement),
-    -3px 3px 8px var(--btn-complement), 3px -3px 8px var(--btn-complement),
-    -3px -3px 8px var(--btn-complement);
+
+
+      
+
+  box-shadow: 0 1px 3px var(--btn-complement);
 }
 
 .btn.pill {
@@ -227,9 +227,16 @@ body.light-theme .btn {
   /* box-shadow: none; */
 }
 
+.btn.blur {
+  box-shadow: 1.5px 1.5px 5px var(--btn-complement),
+    -1.5px 1.5px 5px var(--btn-complement),
+    1.5px -1.5px 5px var(--btn-complement),
+    -1.5px -1.5px 5px var(--btn-complement);
+
+}
 .btn.blue-hue {
   --btn-background: var(--accent);
-  --btn-complement: var(--indigo-complementry);
+  --btn-complement: var(--secondary-accent);
 }
 
 .btn.green-hue {
@@ -249,16 +256,16 @@ body.light-theme .btn {
 /* Button hover effects */
 .btn:hover {
   background-color: var(--btn-complement);
-  /* transform: translateY(-0.3rem); */
-  transform: scale(1.1);
-  color: inherit;
+  transform: scale(1.05);
+  box-shadow: none;
+  color: var(--btn-background);
 }
 
 .gradient-text {
   background: linear-gradient(
     90deg,
-    rgba(53, 34, 176, 1) 0%,
-    rgba(150, 56, 193, 1) 100%
+    var(--secondary-accent) 0%,
+    var(--accent) 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -268,11 +275,4 @@ body.light-theme .btn {
 .tooltip:hover::after {
   content: "";
   cursor: cell;
-}
-
-.float-element {
-  /* background-color: white; */
-  padding: 1rem;
-  border-radius: 1rem;
-  /* box-shadow: 3px 3px 15px grey, -3px -3px 15px grey; */
 }
