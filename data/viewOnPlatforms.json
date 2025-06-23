@@ -1,0 +1,20 @@
+[
+    {
+        "id": "web",
+        "title": "Web",
+        "viewOnText": "Web",
+        "icon": "FaGlobe"
+    },
+    {
+        "id": "github-pages",
+        "title": "Github Pages",
+        "viewOnText": "View On Github Pages",
+        "icon": "FaGithub"
+    }, 
+    {
+        "id": "github",
+        "title": "Github",
+        "viewOnText": "Github",
+        "icon": "FaGithub"
+    }
+]
