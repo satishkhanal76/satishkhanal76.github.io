@@ -5,7 +5,7 @@
         "shortDescription": "Recreation of the classic chess game.",
         "description": "",
         "thumbnailURL": "",
-        "tags": ["game", "chess", "AI"],
+        "tags": ["game", "chess"],
         "technologiesUsed": ["javascript", "html", "css"]
     },
     {
@@ -33,7 +33,7 @@
         "description": "",
         "thumbnailURL": "",
         "tags": ["game", "tictactoe"],
-        "technologiesUsed": ["javascript", "html", "css"]
+        "technologiesUsed": ["javascript", "html", "css", "AI"]
     },
     {
         "id": "travel-agency-website",

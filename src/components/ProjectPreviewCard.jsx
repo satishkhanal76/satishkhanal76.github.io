@@ -15,31 +15,31 @@ const brokenImageIcons = [
 const ProjectPreviewCard = ({
   project,
 }) => {
-  const { title, shortDescription, thumbnailURL, technologiesUsed } = project;
+  const { title, shortDescription, technologies } = project;
 
   const BrokenIcon = brokenImageIcons[Math.floor(Math.random() * brokenImageIcons.length)];
   return (
     <div className="project-card">
         <div className="project-card-thumbnail">
-            {thumbnailURL ? (
+            {/* {thumbnailURL ? (
                 <img src={thumbnailURL} alt={`${title} thumbnail`} className="project-thumbnail-image" />
             ) : (
               <BrokenIcon className="image-icon" />
-            )}
+            )} */}
+
+            <BrokenIcon className="image-icon" />
         </div>
         <h4 className="project-card-title">{title}</h4>
         <p className="project-card-description">{shortDescription}</p>
-        {technologiesUsed && technologiesUsed.length > 0 && (
+        {technologies.getTechnologies().length > 0 && (
           <div className='project-card-technologies' style={{
             display: 'flex',
             flexWrap: 'wrap',
             gap: '0.5rem',
           }}>
-            {technologiesUsed.map((tech, index) => {
-              const technology = technologiesData.find(t => t.id === tech);
-              if (!technology) return null;
-              return (<TechnologyCard key={index} technology={technology} />)
-            })}
+            {technologies.getTechnologies().map((tech, index) => (
+              <TechnologyCard key={index} technology={tech} />
+            ))}
           </div>
         )}
     </div>

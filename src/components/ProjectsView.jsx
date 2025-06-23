@@ -4,7 +4,8 @@ import './ProjectsView.css'
 import { HiViewGrid } from 'react-icons/hi'
 import ProjectPreviewCard from './ProjectPreviewCard'
 
-import projectsData from '/public/data/projects.json'
+
+import ProjectsHandler from '../models/ProjectsHandler.js'
 
 const ProjectsView = () => {
   return (
@@ -15,25 +16,14 @@ const ProjectsView = () => {
         </div>
         <div className='projects-grid'>
 
-            {projectsData.map((project, index) => (
-                <ProjectPreviewCard 
+            {ProjectsHandler.getInstance().getProjects().map((project, index) => (
+                <ProjectPreviewCard
                     key={index}
                     project={project}
                 />
             ))}
             
         </div>
-
-        {/* <div className="technologies" style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            gap: '0.5rem',
-            justifyContent: 'center',
-            marginTop: '2rem',
-            padding: '1rem',
-        }}>
-            {technologiesData.map((tech, index) => <TechnologyCard key={index} technology={tech} />)}
-        </div> */}
     </section>
   )
 }
