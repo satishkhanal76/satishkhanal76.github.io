@@ -1,4 +1,5 @@
 import ProjectTechnologies from './ProjectTechnologies.js';
+import ProjectViewOnPlatforms from './ProjectViewOnPlatforms.js';
 
 export default class Project {
 
@@ -8,6 +9,8 @@ export default class Project {
     #description;
 
     #projectTechnologies;
+
+    #projectViewOnPlatforms;
 
     /**
      * @param {string} id - Unique identifier for the project
@@ -22,6 +25,7 @@ export default class Project {
         this.#description = description;
 
         this.#projectTechnologies = new ProjectTechnologies();
+        this.#projectViewOnPlatforms = new ProjectViewOnPlatforms();
     }
 
 
@@ -40,5 +44,9 @@ export default class Project {
 
     get technologies() {
         return this.#projectTechnologies;
+    }
+
+    get platforms() {
+        return this.#projectViewOnPlatforms;
     }
  }

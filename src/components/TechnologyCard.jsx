@@ -16,7 +16,7 @@ const TechnologyCard = ({
         padding: '0.5rem 1rem',
         backgroundColor: `var(--color-slate600)`,
         color: `var(--color-slate200)`,
-        borderRadius: '0.1em',
+        borderRadius: '2em',
         display: 'flex',
         alignItems: 'center',
         gap: '0.5rem',

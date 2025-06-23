@@ -6,7 +6,17 @@
         "description": "",
         "thumbnailURL": "",
         "tags": ["game", "chess"],
-        "technologiesUsed": ["javascript", "html", "css"]
+        "technologiesUsed": ["javascript", "html", "css"],
+        "viewOnPlatforms": [
+            {
+                "id": "web",
+                "url": "https://satishkhanal76.github.io/Chess/"
+            },
+            {
+                "id": "github",
+                "url": "https://github.com/satishkhanal76/Chess"
+            }
+        ]
     },
     {
         "id": "flappy-bird",
@@ -15,7 +25,17 @@
         "description": "",
         "thumbnailURL": "",
         "tags": ["game", "flappybird"],
-        "technologiesUsed": ["javascript", "html", "css"]
+        "technologiesUsed": ["javascript", "html", "css"],
+        "viewOnPlatforms": [
+            {
+                "id": "web",
+                "url": "https://satishkhanal76.github.io/FlappyBird/"
+            },
+            {
+                "id": "github",
+                "url": "https://github.com/satishkhanal76/FlappyBird"
+            }
+        ]
     },
     {
         "id": "snake",
@@ -24,7 +44,13 @@
         "description": "",
         "thumbnailURL": "",
         "tags": ["game", "snake"],
-        "technologiesUsed": ["java"]
+        "technologiesUsed": ["java"],
+        "viewOnPlatforms": [
+            {
+                "id": "github",
+                "url": "https://github.com/satishkhanal76/SnakeGame"
+            }
+        ]
     },
     {
         "id": "tic-tac-toe",
@@ -33,7 +59,17 @@
         "description": "",
         "thumbnailURL": "",
         "tags": ["game", "tictactoe"],
-        "technologiesUsed": ["javascript", "html", "css", "AI"]
+        "technologiesUsed": ["javascript", "html", "css", "AI"],
+        "viewOnPlatforms": [
+            {
+                "id": "web",
+                "url": "https://satishkhanal76.github.io/Tic-Tac-Toe/"
+            },
+            {
+                "id": "github",
+                "url": "https://github.com/satishkhanal76/Tic-Tac-Toe"
+            }
+        ]
     },
     {
         "id": "travel-agency-website",
@@ -42,6 +78,16 @@
         "description": "",
         "thumbnailURL": "",
         "tags": ["website", "travel", "agency"],
-        "technologiesUsed": ["javascript", "html", "css"]
+        "technologiesUsed": ["javascript", "html", "css"],
+        "viewOnPlatforms": [
+            {
+                "id": "web",
+                "url": "https://satishkhanal76.github.io/Travel-Agency-Website/"
+            },
+            {
+                "id": "github",
+                "url": "https://github.com/satishkhanal76/Travel-Agency-Website"
+            }
+        ]
     }
 ]

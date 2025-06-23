@@ -39,6 +39,10 @@ export default class ProjectsHandler {
             project.technologies.addTechnologyById(technologyID);
         });
 
+        projectData.viewOnPlatforms.forEach(platform => {
+            project.platforms.addProjectPlatform(platform);
+        })
+
         this.#projects.push(project);
         
     }

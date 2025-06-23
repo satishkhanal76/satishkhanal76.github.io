@@ -140,6 +140,7 @@ strong {
 p {
   color: var(--color-slate400);
   font-size: var(--size-sm);
+  margin-block: 0.6rem;
 }
 
 a {
@@ -157,39 +158,33 @@ a:hover {
 /* Heading and paragraph styles with consistent vertical spacing */
 h1 {
   font-size: var(--size-4xl);
-  margin-block: 1.25rem;
+  margin-block: 2rem;
 }
 h2 {
   font-size: var(--size-3xl);
-  margin-block: 1.5rem;
+  margin-block: 1.8rem;
 }
 h3 {
   font-size: var(--size-2xl);
-  margin-block: 1.25rem;
+  margin-block: 1.5rem;
 }
 h4 {
   font-size: var(--size-xl);
+  margin-block: 1.25rem;
+
 }
 h5 {
   font-size: var(--size-l);
+  margin-block: 1.1rem;
+
 }
 h6 {
   font-size: var(--size-m);
+  margin-block: 1rem;
+
 }
 
-h4,
-h5,
-h6 {
-  margin-block: 1rem;
-}
-p {
-  color: var(--color-slate400);
-  font-size: var(--size-sm);
-  margin-block: 1rem;
-}
-a {
-  font-size: var(--size-sm);
-}
+
 /* Buttons */
 
 body.light-theme .btn {

@@ -1,10 +1,9 @@
-import React from 'react'
 import { BiImageAlt } from 'react-icons/bi'
 import { FaImage } from 'react-icons/fa'
 import { HiOutlinePhotograph } from 'react-icons/hi'
 import { MdBrokenImage } from 'react-icons/md'
-import technologiesData from '/public/data/technologies.json'
 import TechnologyCard from './TechnologyCard'
+import PlatformCard from './PlatformCard'
 
 
 
@@ -15,7 +14,7 @@ const brokenImageIcons = [
 const ProjectPreviewCard = ({
   project,
 }) => {
-  const { title, shortDescription, technologies } = project;
+  const { title, shortDescription, technologies, platforms } = project;
 
   const BrokenIcon = brokenImageIcons[Math.floor(Math.random() * brokenImageIcons.length)];
   return (
@@ -31,8 +30,24 @@ const ProjectPreviewCard = ({
         </div>
         <h4 className="project-card-title">{title}</h4>
         <p className="project-card-description">{shortDescription}</p>
+        {platforms.getPlatforms().length > 0 && (
+          <div className='project-card-platforms'>
+            <p>VIEW IT ON:</p>
+            <div style={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              gap: '0.5rem',
+            }}>
+              {platforms.getPlatforms().map((platform, index) => (
+                <PlatformCard key={index} platform={platform} />
+              ))}
+            </div>
+          </div>
+        )}
         {technologies.getTechnologies().length > 0 && (
-          <div className='project-card-technologies' style={{
+          <div className=''>
+            <p>USED:</p>
+            <div style={{
             display: 'flex',
             flexWrap: 'wrap',
             gap: '0.5rem',
@@ -40,6 +55,7 @@ const ProjectPreviewCard = ({
             {technologies.getTechnologies().map((tech, index) => (
               <TechnologyCard key={index} technology={tech} />
             ))}
+          </div>
           </div>
         )}
     </div>
