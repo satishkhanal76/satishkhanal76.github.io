@@ -38,6 +38,25 @@
         ]
     },
     {
+        "id": "pos",
+        "title": "Point Of Sale",
+        "shortDescription": "A Point Of Sale(POS) system using local storage as database.",
+        "description": "",
+        "thumbnailURL": "",
+        "tags": ["pos", "webapp"],
+        "technologiesUsed": ["typescript", "react", "javascript"],
+        "viewOnPlatforms": [
+            {
+                "id": "web",
+                "url": "https://satishkhanal76.github.io/POS/"
+            },
+            {
+                "id": "github",
+                "url": "https://github.com/satishkhanal76/POS"
+            }
+        ]
+    },
+    {
         "id": "snake",
         "title": "Snake",
         "shortDescription": "A simple snake game.",
