@@ -21,7 +21,7 @@
     {
         "id": "pos",
         "title": "Point Of Sale",
-        "shortDescription": "A POS system built with React and IndexedDB to enable offline-first usage. Handles transactions, live totals, and customers in a streamlined web interface.",
+        "shortDescription": "A POS system built with React and IndexedDB to enable offline-first usage as a web app. Handles transactions, live totals, and customers in a streamlined web interface.",
         "description": "",
         "thumbnailURL": "/project-thumbnails/pos.png",
         "tags": ["pos", "webapp"],
@@ -58,7 +58,7 @@
     },
     {
         "id": "travel-agency-website",
-        "title": "Travel Agency Website",
+        "title": "Travel Agency",
         "shortDescription": "A mock Travel Agency website designed to showcase client destinations with engaging visuals to encourage bookings.",
         "description": "",
         "thumbnailURL": "/project-thumbnails/travel-agency.png",

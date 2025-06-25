@@ -24,7 +24,7 @@ const HeroAvatarAndSocials = () => {
         >
           <div className="hero-img-wrapper">
             <img
-              src="./profile-pic.jpeg"
+              src="./hero-img.jpeg"
               alt="Website Hero Image"
               className="hero-img"
             />
