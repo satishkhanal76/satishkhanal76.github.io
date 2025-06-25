@@ -7,7 +7,7 @@
     flex-direction: column;
     gap: 2rem;
     border-radius: 0.8rem;
-    box-shadow: inset 0 4px 12px var(--color-slate600);
+    box-shadow: 0 4px 12px var(--color-slate600);
     padding: 2rem;
 
 }
@@ -33,5 +33,4 @@
 
 .contact-form-btn {
     align-self: flex-start;
-
 }

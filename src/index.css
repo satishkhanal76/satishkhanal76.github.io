@@ -43,6 +43,14 @@
   margin-right: auto;
 }
 
+
+@media (max-width: 1536px) {
+  .container {
+    width: 85%;
+  }
+
+}
+
 @media (max-width: 1024px) {
   :root {
     --size-4xl: 3.5rem;
@@ -54,8 +62,9 @@
     --size-sm: 0.95rem;
     --size-xsm: 0.75rem;
   }
+
   .container {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -71,7 +80,7 @@
     --size-xsm: 0.75rem;
   }
   .container {
-    width: 90%;
+    width: 95%;
   }
 }
 
@@ -86,10 +95,8 @@
     --size-sm: 0.75rem;
     --size-xsm: 0.65rem;
   }
-  .container {
-    width: 95%;
-  }
 }
+
 
 * {
   box-sizing: border-box;
@@ -184,6 +191,11 @@ h6 {
 
 }
 
+input, textarea {
+  background-color: var(--bg-primary);
+  color: var(--color-slate100);
+}
+
 
 /* Buttons */
 
@@ -193,11 +205,11 @@ body.light-theme .btn {
 }
 
 .btn {
-  --btn-background: var(--secondary-accent); /* Button background color*/
-  --btn-complement: var(--color-slate100); /* Button box-shadow color*/
-  --btn-color: var(--color-slate100); /* Button text color*/
+  --btn-background: var(--color-slate100); /* Button background color*/
+  --btn-complement: var(--bg-primary); /* Button box-shadow color*/
+  --btn-color: var(--bg-primary); /* Button text color*/
 
-  padding: 0.7rem;
+  padding: 0.7em 1em;
   border-radius: 0.3rem;
   transition: transform ease 0.2s, background-color ease 0.2s,
     box-shadow ease 0.2s;
@@ -211,14 +223,10 @@ body.light-theme .btn {
 
       
 
-  box-shadow: 0 1px 3px var(--btn-complement);
+  box-shadow: inset 0 0 10px var(--btn-color);
+  border-radius: 10rem;
 }
 
-.btn.pill {
-  border-radius: 100rem;
-  border: 0.11rem solid white;
-  /* box-shadow: none; */
-}
 
 .btn.blur {
   box-shadow: 1.5px 1.5px 5px var(--btn-complement),
@@ -248,10 +256,16 @@ body.light-theme .btn {
 
 /* Button hover effects */
 .btn:hover {
-  background-color: var(--btn-complement);
-  transform: scale(1.05);
-  box-shadow: none;
-  color: var(--btn-background);
+  --btn-color: var(--color-slate100);
+  --btn-background: var(--bg-primary);
+  --btn-complement: var(--color-slate100);
+}
+
+body.light-theme .btn:hover {
+  --btn-color: var(--color-slate100);
+  --btn-background: var(--bg-primary);
+  --btn-complement: var(--color-slate100);
+  color: var(--btn-color);
 }
 
 .gradient-text {
