@@ -4,7 +4,7 @@
         "title": "Chess",
         "shortDescription": "A fully functional web-based chess game built with JavaScript, featuring smooth gameplay, move validation, and an interactive UI.",
         "description": "",
-        "thumbnailURL": "/public/project-thumbnails/chess.png",
+        "thumbnailURL": "/project-thumbnails/chess.png",
         "tags": ["game", "chess"],
         "technologiesUsed": ["javascript", "html", "css"],
         "viewOnPlatforms": [
@@ -23,7 +23,7 @@
         "title": "Point Of Sale",
         "shortDescription": "A POS system built with React and IndexedDB to enable offline-first usage. Handles transactions, live totals, and customers in a streamlined web interface.",
         "description": "",
-        "thumbnailURL": "/public/project-thumbnails/pos.png",
+        "thumbnailURL": "/project-thumbnails/pos.png",
         "tags": ["pos", "webapp"],
         "technologiesUsed": ["typescript", "react", "javascript"],
         "viewOnPlatforms": [
@@ -42,7 +42,7 @@
         "title": "Tic Tac Toe",
         "shortDescription": "A Tic Tac Toe game built with JavaScript featuring an AI opponent powered by the Minimax algorithm for unbeatable gameplay.",
         "description": "",
-        "thumbnailURL": "/public/project-thumbnails/tic-tac-toe.png",
+        "thumbnailURL": "/project-thumbnails/tic-tac-toe.png",
         "tags": ["game", "tictactoe"],
         "technologiesUsed": ["javascript", "html", "css", "AI"],
         "viewOnPlatforms": [
@@ -61,7 +61,7 @@
         "title": "Travel Agency Website",
         "shortDescription": "A mock Travel Agency website designed to showcase client destinations with engaging visuals to encourage bookings.",
         "description": "",
-        "thumbnailURL": "/public/project-thumbnails/travel-agency.png",
+        "thumbnailURL": "/project-thumbnails/travel-agency.png",
         "tags": ["website", "travel", "agency"],
         "technologiesUsed": ["javascript", "html", "css"],
         "viewOnPlatforms": [
@@ -80,7 +80,7 @@
         "title": "Flappy Bird",
         "shortDescription": "A browser-based Flappy Bird clone built with JavaScript, featuring responsive controls, collision detection, score tracking, and a debug menu to tweak game variables in real-time.",
         "description": "",
-        "thumbnailURL": "/public/project-thumbnails/flappy-bird.png",
+        "thumbnailURL": "/project-thumbnails/flappy-bird.png",
         "tags": ["game", "flappybird"],
         "technologiesUsed": ["javascript", "html", "css"],
         "viewOnPlatforms": [
@@ -100,7 +100,7 @@
         "title": "Snake",
         "shortDescription": "A classic Snake game implemented in Java, featuring smooth controls, growing snake mechanics, and collision detection for an engaging gameplay experience.",
         "description": "",
-        "thumbnailURL": "/public/project-thumbnails/snake-game.gif",
+        "thumbnailURL": "/project-thumbnails/snake-game.gif",
         "tags": ["game", "snake"],
         "technologiesUsed": ["java"],
         "viewOnPlatforms": [
