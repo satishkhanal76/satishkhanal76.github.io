@@ -33,10 +33,9 @@ const Navbar = () => {
             <div className="desktop-nav">
                 <ul>
                     <li><a href="./">Home</a></li>
-                    {/* <li><a href="#about-me">About Me</a></li> */}
                     <li><a href="#my-projects">My Projects</a></li>
                     <li><a href="#contact-me">Get In Touch</a></li>
-                    <ThemeToggleButton />
+                    <li><ThemeToggleButton /></li>
                 </ul>
           </div>
         </nav>

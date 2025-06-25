@@ -3,7 +3,7 @@
     position: sticky;
     top: 0;
     left: 0;
-    background-color: var(--bg-primary);
+    /* background-color: var(--bg-primary); */
     z-index: 2;
 }
 
@@ -11,7 +11,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-block: 1em;
+    /* padding-block: 1em; */
 }
 
 .logo-container {
@@ -35,6 +35,13 @@
   color: var(--color-slate100);
 }
 
+.desktop-nav {
+    margin-block-start: 0.8rem;
+    /* background-color: var(--color-slate100); */
+    width: max-content;
+    border-radius: 10em;
+}
+
 .desktop-nav ul {
   margin: 0;
   padding: 0;
@@ -45,34 +52,40 @@
 
   text-decoration: none;
   list-style: none;
+
+  background-color: var(--color-slate100);
+  border-radius: 10em;
 }
 
-
-.desktop-nav ul li a {
-  padding-inline: 0.8em;
-  font-size: var(--size-m);
-  color: var(--accent);
-  border-radius: 0.2em;
+.desktop-nav ul li a, .toggle-theme-btn {
+  color: var(--bg-primary);
+  background-color: var(--color-slate100);
+  padding: 1.5rem;
+  margin: 0.18rem;
 }
 
-.desktop-nav ul li a:hover {
-  color: var(--color-slate200);
+.desktop-nav ul li:first-child a {
+  border-radius: 10em 0 0 10em;
 }
+
+.desktop-nav ul li:nth-last-child(2) a {
+  border-radius: 0 10em 10em 0;
+  
+}
+
 
 .toggle-theme-btn {
   font-size: var(--size-m);
-  color: var(--color-slate600);
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 10em;
 }
 
-.theme-icon.sun {
-  color: yellow;
-}
-.theme-icon.moon {
-  color: var(--color-slate600);
-}
 
+.desktop-nav ul li a:hover, li .toggle-theme-btn:hover {
+  color: var(--color-slate100);
+  background-color: var(--bg-primary);
+}
 
