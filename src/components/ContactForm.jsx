@@ -8,8 +8,8 @@ const ContactForm = () => {
         <h2>Contact Me</h2>
         <form action="https://formsubmit.co/satishkhanal76@icloud.com" method="POST" className='contact-form'>
             <div className="contact-form-title">
-                <h4>Feel free to reach out!</h4>
-                <p>I'd love to hear from you. Please fill out the form below and I'll get back to you as soon as possible.</p>
+                <h4>I'd love to hear from you!</h4>
+                <p>Please fill out the form below and I'll get back to you as soon as possible.</p>
             </div>
             <div className='form-group'>
                 <label htmlFor='name'>Name</label>

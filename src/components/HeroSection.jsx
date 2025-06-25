@@ -15,10 +15,8 @@ const HeroSection = () => {
             <span>Satish</span><span className="title-spread">Khanal</span>
           </h1>
           <p className="hero-desc">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea magni
-            error debitis dolor odit quas repudiandae corrupti unde saepe
-            tempora obcaecati eligendi minus quibusdam similique distinctio
-            laboriosam corporis, nisi aut!
+            Full-Stack developer with 5+ years of experience building real-world web applications. 
+            Passionate about clean code, problem-solving, and creating user-friendly digital experiences.
           </p>
         </div>
       </div>

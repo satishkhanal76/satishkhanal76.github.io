@@ -9,7 +9,7 @@ const HeroAvatarAndSocials = () => {
 
     useEffect(() => {
       setShowIcons(true);
-      const timer = setTimeout(() => setShowIcons(false), 1600); // fan out and in
+      const timer = setTimeout(() => setShowIcons(false), 3000);
       return () => clearTimeout(timer);
     }, []);
 

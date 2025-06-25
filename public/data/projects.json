@@ -2,9 +2,9 @@
     {
         "id": "chess",
         "title": "Chess",
-        "shortDescription": "Recreation of the classic chess game.",
+        "shortDescription": "A fully functional web-based chess game built with JavaScript, featuring smooth gameplay, move validation, and an interactive UI.",
         "description": "",
-        "thumbnailURL": "",
+        "thumbnailURL": "/public/project-thumbnails/chess.png",
         "tags": ["game", "chess"],
         "technologiesUsed": ["javascript", "html", "css"],
         "viewOnPlatforms": [
@@ -19,30 +19,11 @@
         ]
     },
     {
-        "id": "flappy-bird",
-        "title": "Flappy Bird",
-        "shortDescription": "A clone of the popular Flappy Bird game.",
-        "description": "",
-        "thumbnailURL": "",
-        "tags": ["game", "flappybird"],
-        "technologiesUsed": ["javascript", "html", "css"],
-        "viewOnPlatforms": [
-            {
-                "id": "web",
-                "url": "https://satishkhanal76.github.io/FlappyBird/"
-            },
-            {
-                "id": "github",
-                "url": "https://github.com/satishkhanal76/FlappyBird"
-            }
-        ]
-    },
-    {
         "id": "pos",
         "title": "Point Of Sale",
-        "shortDescription": "A Point Of Sale(POS) system using local storage as database.",
+        "shortDescription": "A POS system built with React and IndexedDB to enable offline-first usage. Handles transactions, live totals, and customers in a streamlined web interface.",
         "description": "",
-        "thumbnailURL": "",
+        "thumbnailURL": "/public/project-thumbnails/pos.png",
         "tags": ["pos", "webapp"],
         "technologiesUsed": ["typescript", "react", "javascript"],
         "viewOnPlatforms": [
@@ -57,26 +38,11 @@
         ]
     },
     {
-        "id": "snake",
-        "title": "Snake",
-        "shortDescription": "A simple snake game.",
-        "description": "",
-        "thumbnailURL": "",
-        "tags": ["game", "snake"],
-        "technologiesUsed": ["java"],
-        "viewOnPlatforms": [
-            {
-                "id": "github",
-                "url": "https://github.com/satishkhanal76/SnakeGame"
-            }
-        ]
-    },
-    {
         "id": "tic-tac-toe",
         "title": "Tic Tac Toe",
-        "shortDescription": "A classic Tic Tac Toe game.",
+        "shortDescription": "A Tic Tac Toe game built with JavaScript featuring an AI opponent powered by the Minimax algorithm for unbeatable gameplay.",
         "description": "",
-        "thumbnailURL": "",
+        "thumbnailURL": "/public/project-thumbnails/tic-tac-toe.png",
         "tags": ["game", "tictactoe"],
         "technologiesUsed": ["javascript", "html", "css", "AI"],
         "viewOnPlatforms": [
@@ -93,9 +59,9 @@
     {
         "id": "travel-agency-website",
         "title": "Travel Agency Website",
-        "shortDescription": "A simple travel agency website.",
+        "shortDescription": "A mock Travel Agency website designed to showcase client destinations with engaging visuals to encourage bookings.",
         "description": "",
-        "thumbnailURL": "",
+        "thumbnailURL": "/public/project-thumbnails/travel-agency.png",
         "tags": ["website", "travel", "agency"],
         "technologiesUsed": ["javascript", "html", "css"],
         "viewOnPlatforms": [
@@ -106,6 +72,41 @@
             {
                 "id": "github",
                 "url": "https://github.com/satishkhanal76/Travel-Agency-Website"
+            }
+        ]
+    },
+    {
+        "id": "flappy-bird",
+        "title": "Flappy Bird",
+        "shortDescription": "A browser-based Flappy Bird clone built with JavaScript, featuring responsive controls, collision detection, score tracking, and a debug menu to tweak game variables in real-time.",
+        "description": "",
+        "thumbnailURL": "/public/project-thumbnails/flappy-bird.png",
+        "tags": ["game", "flappybird"],
+        "technologiesUsed": ["javascript", "html", "css"],
+        "viewOnPlatforms": [
+            {
+                "id": "web",
+                "url": "https://satishkhanal76.github.io/FlappyBird/"
+            },
+            {
+                "id": "github",
+                "url": "https://github.com/satishkhanal76/FlappyBird"
+            }
+        ]
+    },
+    
+    {
+        "id": "snake",
+        "title": "Snake",
+        "shortDescription": "A classic Snake game implemented in Java, featuring smooth controls, growing snake mechanics, and collision detection for an engaging gameplay experience.",
+        "description": "",
+        "thumbnailURL": "/public/project-thumbnails/snake-game.gif",
+        "tags": ["game", "snake"],
+        "technologiesUsed": ["java"],
+        "viewOnPlatforms": [
+            {
+                "id": "github",
+                "url": "https://github.com/satishkhanal76/SnakeGame"
             }
         ]
     }

@@ -12,17 +12,20 @@ export default class Project {
 
     #projectViewOnPlatforms;
 
+    #thumbnailURL;
+
     /**
      * @param {string} id - Unique identifier for the project
      * @param {string} title - Title of the project
      * @param {string} shortDescription - A brief description of the project
      * @param {string} description - Detailed description of the project
      */
-    constructor(id, title, shortDescription, description) {
+    constructor(id, title, shortDescription, description, thumbnailURL) {
         this.#id = id;
         this.#title = title;
         this.#shortDescription = shortDescription;
         this.#description = description;
+        this.#thumbnailURL = thumbnailURL;
 
         this.#projectTechnologies = new ProjectTechnologies();
         this.#projectViewOnPlatforms = new ProjectViewOnPlatforms();
@@ -48,5 +51,9 @@ export default class Project {
 
     get platforms() {
         return this.#projectViewOnPlatforms;
+    }
+
+    get thumbnailURL() {
+        return this.#thumbnailURL;
     }
  }

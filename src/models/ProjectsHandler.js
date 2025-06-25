@@ -32,7 +32,8 @@ export default class ProjectsHandler {
             projectData.id,
             projectData.title,
             projectData.shortDescription,
-            projectData.description
+            projectData.description,
+            projectData.thumbnailURL
         );
 
         projectData.technologiesUsed.forEach(technologyID => {
