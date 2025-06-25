@@ -56,7 +56,7 @@
 .desktop-nav ul li a, .toggle-theme-btn {
   color: var(--bg-primary);
   background-color: var(--color-slate100);
-  padding: 1.5rem;
+  padding: 1.2rem 1.5rem;
   margin: 0.18rem;
 }
 
@@ -77,21 +77,27 @@
   align-items: center;
   justify-content: center;
   border-radius: 10em;
-}
-
-
-.desktop-nav ul li a:hover, li .toggle-theme-btn:hover {
   color: var(--color-slate100);
   background-color: var(--bg-primary);
 }
 
 
-@media (max-width: 768px) {
+.desktop-nav ul li a:hover {
+  color: var(--color-slate100);
+  background-color: var(--bg-primary);
+  box-shadow: inset 0 0 8px var(--color-slate100);
+}
+
+li .toggle-theme-btn:hover {
+  color: var(--bg-primary);
+  background-color: var(--color-slate100);
+  box-shadow: inset 0 0 8px var(--bg-primary);
+}
+
+
+@media (max-width: 480px) {
   .desktop-nav-section {
     background-color: var(--bg-primary);
-  }
-  .desktop-nav {
-    margin: 0;
   }
   .nav-wrapper {
     justify-content: center;

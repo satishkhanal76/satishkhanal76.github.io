@@ -76,7 +76,6 @@
 .hero-icons-container .hero-icon {
     position: absolute;
     cursor: pointer;
-    background-color: var(--color-slate100);
     padding: 0.4em;
     border-radius: 50%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -88,10 +87,14 @@
     
     font-size: var(--size-xl);
     color: var(--bg-primary);
+    background-color: var(--color-slate100);
 }
 
-a.hero-icon {
+/* a.hero-icon {
   color: var(--bg-primary);
+} */
+.hero-icons-container .hero-icon:hover {
+  background-color: var(--bg-primary);
+  color: var(--color-slate100);
+  box-shadow: inset 0 0 8px var(--color-slate100);
 }
-
-
