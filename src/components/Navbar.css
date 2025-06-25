@@ -34,7 +34,7 @@
 }
 
 .desktop-nav {
-    margin-block-start: 0.1rem;
+    margin-block-start: 0.5rem;
     width: max-content;
 }
 
@@ -89,6 +89,9 @@
 @media (max-width: 768px) {
   .desktop-nav-section {
     background-color: var(--bg-primary);
+  }
+  .desktop-nav {
+    margin: 0;
   }
   .nav-wrapper {
     justify-content: center;
