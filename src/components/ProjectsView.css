@@ -60,12 +60,16 @@
     border: 2px solid var(--color-slate100);
 }
 
-
 .project-card-thumbnail img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 
+    cursor: pointer;
+    transition: transform ease 0.1s;
+}
+.project-card-thumbnail img:hover {
+  transform: scale(1.05);  
 }
 
 .project-card-thumbnail .image-icon {
