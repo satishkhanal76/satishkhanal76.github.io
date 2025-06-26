@@ -3,6 +3,7 @@ import React from 'react'
 import './ProjectsView.css'
 import { HiViewGrid } from 'react-icons/hi'
 import ProjectPreviewCard from './ProjectPreviewCard'
+import RevealOnScroll from './ReveaLOnScroll.jsx'
 
 
 import ProjectsHandler from '../models/ProjectsHandler.js'
@@ -17,10 +18,9 @@ const ProjectsView = () => {
         <div className='projects-grid'>
 
             {ProjectsHandler.getInstance().getProjects().map((project, index) => (
-                <ProjectPreviewCard
-                    key={index}
-                    project={project}
-                />
+                <RevealOnScroll key={index} index={index}>
+                    <ProjectPreviewCard project={project} />
+                </RevealOnScroll>
             ))}
             
         </div>

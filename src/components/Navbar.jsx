@@ -24,9 +24,9 @@ const Navbar = () => {
   return (
     <motion.nav
       className="desktop-nav-section"
-      initial={{ y: 0 }}
-      animate={{ y: showNavbar ? 0 : -100 }}
-      transition={{ duration: 0.1, ease: 'easeInOut' }}
+      initial={{ y: 0, display: "block", opacity: 1 }}
+      animate={ showNavbar ? { opacity: 1, y: 0, display: "block" } : {opacity: 0, y: -100, display: "none"}}
+      transition={{ duration: 0.25, ease: 'easeInOut' }} 
     >
         <nav className='container nav-wrapper'>
             {/* <a className='logo-container' href="/"><img alt='logo-image' src='./hero-img.jpeg' /></a> */}
