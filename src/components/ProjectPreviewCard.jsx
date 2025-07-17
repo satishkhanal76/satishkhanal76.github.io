@@ -13,11 +13,10 @@ const brokenImageIcons = [
 ]
 
 const ProjectPreviewCard = ({
+  onModalOpen,
   project,
 }) => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const toggleModal = () => setIsModalOpen(!isModalOpen);
-
+  
   const { title, shortDescription, technologies, platforms, thumbnailURL } = project;
 
   const BrokenIcon = brokenImageIcons[Math.floor(Math.random() * brokenImageIcons.length)];
@@ -26,7 +25,7 @@ const ProjectPreviewCard = ({
         <div className="project-card-thumbnail">
             {thumbnailURL ? 
                   <img
-                    onClick={toggleModal}
+                    onClick={() => onModalOpen(project)}
                     src={thumbnailURL}
                     alt={`${title} thumbnail`}
                     className="project-thumbnail-image"
@@ -63,13 +62,6 @@ const ProjectPreviewCard = ({
               <TechnologyCard key={index} technology={tech} />
             ))}
           </div>
-          </div>
-        )}
-        {isModalOpen && (
-          <div className="modal-backdrop" onClick={toggleModal}>
-            <div className="modal-content">
-              <img src={thumbnailURL} alt={`${title} full preview`} />
-            </div>
           </div>
         )}
     </div>
