@@ -22,9 +22,9 @@ const ProjectsView = () => {
 
     useEffect(() => {
         if (modalDetails.isModalOpen) {
-            document.body.style.overflow = 'hidden'; // Disable scrolling
+            document.body.classList.add('modal-open');
         } else {
-            document.body.style.overflow = 'auto'; // Enable scrolling
+            document.body.classList.remove('modal-open');
         }
     }, [modalDetails.isModalOpen]);
 

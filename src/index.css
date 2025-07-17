@@ -130,6 +130,9 @@ body.light-theme {
 
 }
 
+body.modal-open {
+  overflow: hidden; /* Prevent scrolling when modal is open */
+}
 
 button {
   outline: none;
