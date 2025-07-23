@@ -20,6 +20,6 @@ routes.forEach((url) => {
 sitemap.end();
 
 streamToPromise(sitemap).then((data) => {
-  createWriteStream('./public/sitemap.xml').write(data.toString());
+  createWriteStream('../public/sitemap.xml').write(data.toString());
   console.log('✅ Sitemap generated at public/sitemap.xml');
 });
